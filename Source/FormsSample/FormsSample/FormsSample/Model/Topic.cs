@@ -10,11 +10,13 @@ namespace FormsSample.Model
     {
         public string Title { get; set; }
         public string Presenter { get; set; }
+        public DateTime Date { get; set; }
 
-        public Topic(string title, string presenter)
+        public Topic(string title, string presenter, DateTime? date = null)
         {
             Title = title;
             Presenter = presenter;
+            Date = date;
         }
     }
 }

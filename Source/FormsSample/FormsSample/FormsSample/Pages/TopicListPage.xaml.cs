@@ -38,9 +38,9 @@ namespace FormsSample.Pages
 
             Topics = new ObservableCollection<Topic>()
             {
-                new Topic("Stackify Prefix", "James"),
-                new Topic("Twilio", "Tin"),
-                new Topic("Xamarin.Forms", "Sean"),
+                new Topic("Stackify Prefix", "James", new DateTime(2017, 3, 7)),
+                new Topic("Twilio", "Tin", new DateTime(2017, 3, 14)),
+                new Topic("Intro to Basic Xamarin.Forms", "Sean", new DateTime(2017, 3, 21)),
             };
         }
 
